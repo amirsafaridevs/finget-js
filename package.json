@@ -1,5 +1,5 @@
 {
-  "name": "@finget/sdk",
+  "name": "irfunget",
   "version": "1.0.0",
   "description": "Official Node.js / JavaScript / TypeScript SDK for the Finget passwordless login and notification API",
   "license": "MIT",

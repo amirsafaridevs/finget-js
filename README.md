@@ -1,4 +1,4 @@
-# @finget/sdk
+# finget
 
 کلاینت رسمی [فینگت](https://finget.ir) برای **Node.js**، **JavaScript** و **TypeScript**: ورود بدون رمز و ارسال اعلان.
 
@@ -9,7 +9,7 @@
 ## نصب
 
 ```bash
-npm install @finget/sdk
+npm install irfunget
 ```
 
 ## شروع سریع
@@ -19,7 +19,7 @@ export FINGET_API_KEY=fg_live_...
 ```
 
 ```ts
-import { Client } from "@finget/sdk";
+import { Client } from "irfunget";
 
 const finget = Client.fromEnv();
 // یا: new Client({ apiKey: process.env.FINGET_API_KEY! })
@@ -30,7 +30,7 @@ const { site } = await finget.getSite();
 ## ورود با فینگت
 
 ```ts
-import { Client } from "@finget/sdk";
+import { Client } from "irfunget";
 
 const finget = Client.fromEnv();
 const clientId = process.env.FINGET_CLIENT_ID!;
@@ -67,8 +67,8 @@ await finget.sendNotification({
 ## JavaScript (بدون TypeScript)
 
 ```js
-const { Client } = require("@finget/sdk");
-// یا: import { Client } from "@finget/sdk";
+const { Client } = require("irfunget");
+// یا: import { Client } from "irfunget";
 
 const finget = new Client({ apiKey: process.env.FINGET_API_KEY });
 ```
