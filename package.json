@@ -1,10 +1,13 @@
 {
   "name": "finget-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Official Node.js / JavaScript / TypeScript SDK for the Finget passwordless login and notification API",
   "license": "MIT",
-  "author": "Finget (https://finget.ir)",
-  "homepage": "https://finget.ir/plugins",
+  "author": {
+    "name": "Finget",
+    "url": "https://finget.ir"
+  },
+  "homepage": "https://finget.ir",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/amirsafaridevs/finget-js.git"

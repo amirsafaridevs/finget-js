@@ -1,10 +1,12 @@
-# finget
+# finget-sdk
 
-کلاینت رسمی [فینگت](https://finget.ir) برای **Node.js**، **JavaScript** و **TypeScript**: ورود بدون رمز و ارسال اعلان.
+کلاینت رسمی **[فینگت](https://finget.ir)** برای **Node.js**، **JavaScript** و **TypeScript**: ورود بدون رمز و ارسال اعلان.
 
-- نیازمندی: **Node.js 18+** (native `fetch`)
+- وب‌سایت: [finget.ir](https://finget.ir)
+- افزونه‌ها و SDKها: [finget.ir/plugins](https://finget.ir/plugins)
 - مستندات API: [finget.ir/provider/panel/docs](https://finget.ir/provider/panel/docs)
-- دانلود ZIP: [finget.ir/plugins](https://finget.ir/plugins)
+- npm: [npmjs.com/package/finget-sdk](https://www.npmjs.com/package/finget-sdk)
+- نیازمندی: **Node.js 18+** (native `fetch`)
 
 ## نصب
 
