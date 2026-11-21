@@ -1,0 +1,56 @@
+{
+  "name": "@finget/sdk",
+  "version": "1.0.0",
+  "description": "Official Node.js / JavaScript / TypeScript SDK for the Finget passwordless login and notification API",
+  "license": "MIT",
+  "author": "Finget (https://finget.ir)",
+  "homepage": "https://finget.ir/plugins",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirsafaridevs/finget-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amirsafaridevs/finget-js/issues"
+  },
+  "keywords": [
+    "finget",
+    "login",
+    "otp",
+    "passwordless",
+    "notifications",
+    "iran",
+    "nodejs",
+    "typescript"
+  ],
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --clean --sourcemap",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
